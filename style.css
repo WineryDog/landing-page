@@ -1,0 +1,150 @@
+* {
+}
+  
+body {
+    min-height: 100vh;
+    margin: 0;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #3882f6;
+    padding: 8px 38px;
+    border-radius: 8px;
+    border-style: hidden;
+}
+
+.top-container {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.top-logo {
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.right-links {
+    display: flex;
+    align-items: center;
+
+}
+
+.container-summary {    
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0 50px 0;
+    gap: 16px;
+}
+
+.description-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 12px;
+    width: 50%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch; 
+    width: 50%;
+}
+
+.img-container img {
+    flex-shrink: 0;
+    object-fit: cover;
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+
+.subtext, a {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    padding: 0;
+    text-align: justify;
+}
+
+.secondtxt {
+    color: #a5a6a8;
+    margin: 10px 0 10px 0
+}
+
+.second-container-head {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin: 30px 0 30px 0;
+}
+.second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+
+.card-container{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    border: 3px solid salmon;
+    width: 200px;  
+    gap: 10px;
+    
+}
+
+.card img {
+    display: flex;
+    width: 200px;    
+    height: 280px;
+    border-radius: 10px;
+}
